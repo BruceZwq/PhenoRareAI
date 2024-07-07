@@ -12,7 +12,7 @@ The Phenotype-Augmentation folder holds the Phenotypic Radiographs web files aft
 
 1. Store electronic hospital medical data file of txt format and json format in the CHPO-NER/hospital_data and CHPO-NER/hospital_data_json folder
 
-2. Download https://huggingface.co/FreedomIntelligence/HuatuoGPT2-7B to CHPO-NER (or just follow the https://huggingface.co/FreedomIntelligence/HuatuoGPT2-7B tutorial to call the API to use the HuatuoGPT2 model.)
+2. Follow the https://huggingface.co/FreedomIntelligence/HuatuoGPT2-7B tutorial to call the API to use the HuatuoGPT2 model.
 
 3. Download https://huggingface.co/Adapting/bert-base-chinese-finetuned-NER-biomedical and https://huggingface.co/iioSnail/bert-base-chinese-medical-ner to CHPO-NER/TXT2HPO (or download https://drive.google.com/file/d/1Kvnd26gKvDQX0t95ZvytuqNmzbGbEDt1/view?usp=drive_link to CHPO-NER/TXT2HPO)
 
