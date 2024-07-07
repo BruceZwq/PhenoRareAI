@@ -9,6 +9,7 @@ The Phenotype-Augmentation folder holds the Phenotypic Radiographs web files aft
 
 # CHPO-NER
 
+
 1. Store electronic hospital medical data file of txt format and json format in the CHPO-NER/hospital_data and CHPO-NER/hospital_data_json folder
 
 2. Download https://huggingface.co/FreedomIntelligence/HuatuoGPT2-7B to CHPO-NER (or download https://drive.google.com/file/d/1Kvnd26gKvDQX0t95ZvytuqNmzbGbEDt1/view?usp=drive_link to CHPO-NER)
@@ -22,6 +23,7 @@ The Phenotype-Augmentation folder holds the Phenotypic Radiographs web files aft
 6. Go to the CHPO-NER/TXT2HPO folder and Run python chinese-finetuned-NER-biomedical_chpo_embedding.py and python chinese-medical-ner_chpo_embedding.py to create Chinese embedding dictionarys (or download https://drive.google.com/file/d/1rTm8-_Dy2apRBu8EjcrbMtX7XUIda0A1/view?usp=drive_link stored in CHPO-NER/TXT2HPO)
 
 7. Follow the PhenoPro running process(https://github.com/jumphone/PhenoPro). (1) Run Python step0_dumping.py. (2) Run our seven models for phenotype identification, such as Run python txt2hpo_sunday_zh_cn.py, Run python step1_txt2hpo_cutoff_finetuned _ner_biomedical.py and Run python step1_txt2hpo_gptner_disease_symptom_finetuned_ner_biomedical.py
+
 
 
 # Disease-Prioritization
